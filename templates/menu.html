@@ -1,0 +1,73 @@
+{%extends "layout.html"%}
+
+{%block title%}<title>Menu</title>{%endblock%}
+
+{%block main%}
+<header class ="header">
+    <div class="header-text">
+        <h1 class="heading">The Coffee House</h1>
+        <p class="header-paragraph"> "I wake up some mornings and sit and have my coffee and look out at my beautiful garden, and I go, 'Remember how good this is. Because you can lose it.'"-Jim Carrey</p>
+        <img class=header src = "{{url_for("static", filename="/images/types-coffee.jpg")}}">
+    <div class="logo">
+        <h1>
+            <span class="center"><i class="fa fa-coffee"></i></span>
+            <span class="center">C</span>
+            <span class="center">O</span>
+            <span class="center">F</span>
+            <span class="center">F</span>
+            <span class="center">E</span>
+            <span class="center">E</span>
+          </h1>
+    </div>
+</header>
+<div class="section-menu">
+    <div class="menu-item">
+        <h2>Our Coffee</h2>
+        <hr>
+        <p>“Green coffee is a living thing, more like produce than an inert spice or candy, and each one has a unique life span based on who produced it and where it's from.”
+            —Charlie Habegger</p>
+            <p>“Making coffee is a simple art, yet it also has so many aspects: practice, precision, and the sheer pleasure of making something you know you’re going to enjoy. It’s an expanding universe of wonderfulness; you never run out of things to get better at.” 
+                ― James Freeman </p>
+        <div class="drinks">
+        <ul class ="drinks-three">
+            <h4>Brewed Coffees</h4>
+            <li>Blonde Roast</li>
+            <li>Caffè Misto
+            </li>
+            <li>Featured Starbucks® Dark Roast Coffee</li>
+            <li>Pike Place® Roast</li>
+            <li>Almondmilk Honey Flat White with Starbucks® Blonde Espresso</li>
+            <li>Cinnamon Dolce Latte</li>
+            <li>Peppermint White Chocolate Mocha</li>
+        </ul>
+        <ul class ="drinks-three">
+            <h4>Hot Teas</h4>
+            <li>Chai Latte</li>
+            <li>Chai Tea
+            </li>
+            <li>London Fog Tea Latte</li>
+            <li>Rev Up Brewed Wellness Tea</li>
+            <li>Honey Citrus Mint Tea</li>
+            <li>Cinnamon Tea</li>
+            <li>Matcha Green Tea Latte</li>
+            <li>Classic Green Tea</li>
+        </ul>
+        <ul class ="drinks-three">
+            <h4>Cold Brews</h4>
+            <li>Cold Brew with Cinnamon Almondmilk Foam</li>
+            <li>Cold Brew with Dark Cocoa Almondmilk Foam
+            </li>
+            <li>Cold Brew with Cinnamon Oatmilk Foam
+            </li>
+            <li>Salted Caramel Cream Cold Brew
+            </li>
+            <li>Vanilla Sweet Cream Cold Brew</li>
+            <li>Nitro Cold Brew with Dark Cocoa Almondmilk </li>
+            <li>Starbucks® Blonde Doubleshot® On Ice
+            </li>
+            <li>Classic Black Coffee</li>
+        </ul>
+    </div>
+    </div>
+</div>
+{%endblock%}

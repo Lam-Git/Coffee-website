@@ -1,0 +1,282 @@
+body {
+  background-color: whitesmoke;
+  font-family: "EB Garamond", serif;
+}
+/*Home Start*/
+.video-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+.bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text-home {
+  color: rgba(0, 0, 0, 0.9);
+  text-align: justify;
+  vertical-align: middle;
+  padding: 10rem;
+}
+/*Home Start*/
+
+.header-container .coffee {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  border-radius: 1rem;
+}
+
+.header-about {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.about-text {
+  width: 100%;
+  padding: 20px;
+}
+
+.about-sourcing {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 1rem;
+}
+.center {
+  padding: 1rem;
+  border-radius: 3rem;
+  border: 0.5px solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  opacity: 0.8;
+}
+.about-farmer {
+  background-color: lightgray;
+  padding: 1rem;
+  opacity: 0.8;
+  position: relative;
+  text-align: center;
+}
+.about-community {
+  background-color: lightseagreen;
+  padding: 1rem;
+  opacity: 0.8;
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+.community-head-p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about-roasting {
+  background-color: black;
+  padding: 1rem;
+  color: whitesmoke;
+}
+.three-element > ul {
+  display: inline-block;
+  display: -moz-inline-box;
+  text-align: center;
+  border: 0.8rem solid;
+  font-size: 19px;
+  width: 33.1%;
+  height: 33.1%;
+  justify-content: space-around;
+}
+.three {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.8;
+}
+/*Home End*/
+/*Menu Start*/
+.header {
+  width: auto;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+.header-text {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  /*text-shadow: 0 0.3rem 0.5rem;*/
+}
+.heading {
+  color: white;
+  font-size: 3rem;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.header-paragraph {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+  color: var(black);
+  max-width: 120rem;
+  margin-bottom: 10px;
+}
+.logo {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+}
+.logo h1 {
+  display: flex;
+}
+.logo h1 span {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 655;
+  color: white;
+  background-color: black;
+  width: 3.4rem;
+  height: 3.4rem;
+  display: block;
+  margin: 0.1rem;
+  border-radius: 45%;
+}
+.logo h1 span:nth-child(1) {
+  animation: drop-letters 5s 0.1s infinite;
+}
+.logo h1 span:nth-child(1) {
+  animation: drop-letters 5s 0.2s infinite;
+}
+.logo h1 span:nth-child(2) {
+  animation: drop-letters 5s 0.3s infinite;
+}
+.logo h1 span:nth-child(3) {
+  animation: drop-letters 5s 0.4s infinite;
+}
+.logo h1 span:nth-child(4) {
+  animation: drop-letters 5s 0.5s infinite;
+}
+.logo h1 span:nth-child(5) {
+  animation: drop-letters 5s 0.6s infinite;
+}
+.logo h1 span:nth-child(6) {
+  animation: drop-letters 5s 0.7s infinite;
+}
+.logo h1 span:nth-child(7) {
+  animation: drop-letters 5s 0.8s infinite;
+}
+@keyframes drop-letters {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(100%);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.section-menu {
+  text-align: center;
+}
+
+.drinks > .drinks-three {
+  display: inline-block;
+  display: -moz-inline-box;
+  text-align: center;
+  border: 0.5rem solid;
+  font-size: 19px;
+  width: 33.1%;
+  height: 33.1%;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*Menu End*/
+/*--Contact Start--*/
+* {
+  box-sizing: border-box;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+
+.form {
+  padding: 2rem;
+  width: 900px;
+  display: -moz-inline-grid;
+  margin: 0 auto;
+  height: 550px;
+}
+.video-contact {
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  opacity: 0.8;
+}
+.bg-video2 {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  z-index: -1;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  text-align: center;
+  border: lightslategray;
+}
+
+.input-field:focus {
+  border: 2px solid black;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: lightseagreen;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: red;
+}
+/*--Contact End--*/

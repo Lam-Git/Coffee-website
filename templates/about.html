@@ -1,0 +1,76 @@
+{%extends "layout.html"%}
+
+{%block title%}<title>About</title>{%endblock%}
+
+{%block main%}
+
+    <div class="header-container">
+    <div class="header-about">
+        <img class ="coffee"src="{{url_for("static", filename="/images/about.jpg")}}">
+        <h3>SOCIAL RESPONS­IBILITY</h3>
+        <p>We rely on skilled farmers around the globe to grow and process the special coffees we roast, so we work to ensure their future. The foundation of our farmer partnerships is measuring social, environmental, and economic conditions at farms and mills. Guided by these insights, we work alongside farmers to offer training and educational opportunities, support farm community initiatives, and invest in coffee plant science.</p>
+    </div>
+</div>
+
+<div class="about-text">
+    <section class="about-sourcing">
+        <img class="center" src ="{{url_for ("static", filename="/images/logo.jpg")}}">
+        <h3>RESPONSIBLE
+            SOURCING</h3>
+            <p>We’ve always sought to source the highest quality coffees for our customers in a way that honors farmers, respects the environment, and recognizes the role of communities. Beginning in 2016, we formalized our efforts to systematically evaluate all coffee purchases annually according to key sustainability standards. We’re most of the way there with measurement, and these insights inform our efforts to make improvements that matter.</p>
+    </section>
+
+    <section class="about-farmer">
+        <img src="{{url_for("static", filename="/images/farm.jpg")}}">
+        <h3>FARMER
+            ASSISTANCE
+        </h3>
+        <p>Coffee farmers face an unprecedented number and complex array of challenges. There isn’t a singular solution, and often a meaningful response requires a long-term view and a collaborative approach. We focus on training farmers and funding better coffee plant science. There’s much, much more to be done, but we’re seeing social, environmental, and economic benefits take hold.
+        </p>
+    </section>
+    <section class="about-community">
+        <img src="{{url_for("static", filename="/images/com.jpg")}}">
+        <div class="community-head-p">
+        <h3>COMMUNITY
+            SUPPORT</h3>
+           
+            <p>By investing in the farmers and communities where we source coffee, we’re able to connect more closely with these critical business partners and build supplier relationships based in trust and mutual understanding. In this spirit, we support youth, education, and health-focused initiatives that position coffee communities to thrive today and into the future.</p>
+        </div>
+    </section>
+    <section class="about-roasting">
+        <h3>GREEN ROASTING
+            AT HOME</h3>
+        <h5>LEED GOLD CERTIFIED</h5>
+        <p>We roast 100% of our coffees in the nation’s first LEED Gold Certified roasting facility. Developed by the U.S. Green Building Council, LEED stands for Leadership in Energy and Environmental Design.</p>
+    </section>
+    <div class="three-element">
+        <ul>
+            <img class="three "src="{{url_for("static", filename="/images/energy.jpg")}}">
+            <h3>Energy</h3>
+            <li>Heat exchange technology recovers roasting heat, resulting in 40% less natural gas used.</li>
+            <li>Use of natural light and high efficiency lighting technology reduces energy used by 40%.</li>
+            <li>Environmentally-sensitive, high-efficiency HVAC systems reduce greenhouse emissions.</li>
+            <li>The use of energy efficient RTO (Regenerative Thermal Oxidizer) technology increases natural gas efficiency by 30%.</li>
+        </ul>
+        <ul>
+            <img class="three"src="{{url_for("static", filename="/images/saving.jpg")}}">
+            <h3>Water Conservation</h3>
+            <li>Water conservation is the practice of using water efficiently to reduce unnecessary water usage. Also its critical because fresh clean water is a limited resource.</li>
+            <li>100% storm water runoff goes through bio-swales or water treatment units en route to San Francisco Bay.
+            </li>
+            <li>Water-efficient landscaping and high-efficiency irrigation reduces water usage by 87%.</li>
+            <li>The facility uses waterless and low-flow fixtures that reduce the consumption of water.</li>
+        </ul>
+        <ul>
+            <img class="three"src="{{url_for("static", filename="/images/Recycled.jpg")}}">
+            <h3>Materials</h3>
+            <li>Over 75% of construction waste was diverted from landfill to recycling during construction.
+            </li>
+            <li>More than 90% of the waste materials generated from roasting and packaging are recycled or upcycled and diverted from the landfill.</li>
+            <li>20% of materials come from local and regional sources.
+            </li>
+            <li>Recycled materials are used in mulch, including coffee chaff, a by-product of roasting.</li>
+        </ul>
+    </div>
+</div>
+{%endblock%}

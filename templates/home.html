@@ -1,0 +1,21 @@
+{%extends "layout.html"%}
+
+{%block title%}<title>Home</title>{%endblock%}
+
+{%block main%}
+<header>
+    <div class="header-home">
+        <div class="video-container">
+            <video class="bg-video" autoplay muted loop >
+            <source src ="{{url_for("static", filename="images/Drip_coffee.mp4")}}" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</header>
+<!---Text-->
+<div class="text-home">
+    <h1>The Coffee House</h1>
+    <br>
+    <p class ="text-p">"For me, the cooking life has been a long love affair, with moments both sublime and ridiculous. But like a love affair, looking back you remember the happy times best."</p>
+</div>
+{%endblock%}

@@ -1,0 +1,39 @@
+{%extends "layout.html"%}
+
+{%block title%}<title>Contact Us</title>{%endblock%}
+
+{%block main%}
+<section>
+<div class="video-contact">
+    <video class="bg-video2" autoplay muted loop >
+        <source src="{{url_for("static", filename="/images/shot.mp4")}}" type = "video/mp4">
+    </video>
+</div>
+</section>
+<section class="form">
+<form action="/action_page.php">
+  <br>
+  <br>
+  <br>
+  <br>
+    <h2>Reward Program</h2>
+    <hr>
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="text" placeholder="Username" name="usrnm">
+    </div>
+  
+    <div class="input-container">
+      <i class="fa fa-envelope icon"></i>
+      <input class="input-field" type="text" placeholder="Email" name="email">
+    </div>
+  
+    <div class="input-container">
+      <i class="fa fa-key icon"></i>
+      <input class="input-field" type="password" placeholder="Password" name="psw">
+    </div>
+  
+    <button type="submit" class="btn">Register</button>
+  </form>
+</section>
+{%endblock%}
